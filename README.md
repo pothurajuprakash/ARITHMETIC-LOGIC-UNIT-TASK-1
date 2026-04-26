@@ -35,6 +35,8 @@ Finally, when the selection signal is set to **100**, the ALU performs a NOT ope
 Throughout the waveform, the signals are stable within each time interval and transition cleanly at the boundaries, indicating proper combinational logic behavior without glitches. The consistency between expected theoretical results and simulated outputs confirms that the ALU design is functionally correct.
 
 In conclusion, the EPWave simulation waveform effectively demonstrates the correct working of all implemented ALU operations. It serves as a visual validation tool, ensuring that the design meets its intended functionality and adheres to digital design principles.
- 
+
+ OUTPUT:
+ <img width="1700" height="925" alt="Image" src="https://github.com/user-attachments/assets/da60d1e5-bf88-403c-ac5a-f79cbd9e5488" />
 
 
