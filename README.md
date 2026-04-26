@@ -10,11 +10,7 @@ DURATION: 6 MONTHS
 
 MENTOR: NEELA SANTOSH KUMAR
 
-Here’s a **500+ word professional description** of your EPWave simulation waveform that you can use in your report or GitHub:
-
----
-
-## 📊 EPWave Simulation Waveform Description
+Description: 
 
 The waveform shown above represents the simulation results of a **4-bit Arithmetic Logic Unit (ALU)** designed using Verilog HDL and executed in an online simulation environment. The waveform is generated using the EPWave viewer, which visually illustrates how input signals and corresponding outputs change over time. This graphical representation is crucial for verifying the functional correctness of the ALU design.
 
