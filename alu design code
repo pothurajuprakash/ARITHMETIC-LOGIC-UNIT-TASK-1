@@ -1,0 +1,40 @@
+module alu (
+    input [3:0] A, B,       // 4-bit inputs
+    input [2:0] sel,        // operation select
+    output reg [3:0] result,
+    output reg carry        // carry/borrow flag
+);
+
+always @(*) begin
+    case (sel)
+        3'b000: begin  // ADD
+            {carry, result} = A + B;
+        end
+
+        3'b001: begin  // SUB
+            {carry, result} = A - B;
+        end
+
+        3'b010: begin  // AND
+            result = A & B;
+            carry = 0;
+        end
+
+        3'b011: begin  // OR
+            result = A | B;
+            carry = 0;
+        end
+
+        3'b100: begin  // NOT (on A)
+            result = ~A;
+            carry = 0;
+        end
+
+        default: begin
+            result = 4'b0000;
+            carry = 0;
+        end
+    endcase
+end
+
+endmodule
